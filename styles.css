@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 400px; 
+    height: 400px; 
+    border: 1px solid black; 
+}
+
+.grid-square {
+    flex: 1 0 calc(100% / 16); 
+    aspect-ratio: 1 / 1; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; 
+}
